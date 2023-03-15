@@ -5,15 +5,15 @@
         Console.WriteLine("Таблица умножения:");  
         for (int i = 1; i <= 15; i++)
         {
-            Console.Write(i.ToString("X") + " | "); выписать
+            Console.Write(i.ToString("X") + " | "); 
             for (int j = 1; j <= 15; j++)
             {
-                Console.Write((i * j).ToString("X") + " "); ничего
+                Console.Write((i * j).ToString("X") + " "); //таблица умножения
             }
             Console.WriteLine();
         }
 
-        Console.WriteLine("\nТаблица сложения:"); сложение таблиц
+        Console.WriteLine("\nТаблица сложения:"); //таблица сложения
         for (int i = 0; i <= 15; i++)
         {
             Console.Write(i.ToString("X") + " | ");
