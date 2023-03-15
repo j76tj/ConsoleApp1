@@ -8,7 +8,7 @@
             Console.Write(i.ToString("X") + " | ");  //
             for (int j = 1; j <= 15; j++)
             {
-                Console.Write((i * j).ToString("X") + " ");  //
+                Console.Write((i * j).ToString("X") + " ");  //   pechat  stroki tablitsy 
             }
             Console.WriteLine();
         }
